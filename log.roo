@@ -1,0 +1,38 @@
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-08-25 22:22:46
+help
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-08-25 22:25:41
+download status
+download status
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-08-25 22:27:59
+download status
+download status
+download accept terms of use
+project --topLevelPackage com.gabatait.addressbook
+persistence setup --provider HIBERNATE --database MYSQL
+hint
+entity --class ~.domain.Person --testAutomatically 
+field string --fieldName name
+field date --fieldName birthDay --type java.util.Date
+controller all --package ~.web
+logging setup --level DEBUG 
+security setup
+perform test
+persistence setup --provider HIBERNATE --database H2_IN_MEMORY 
+perform test
+perform eclipse
+hint 
+hint eclipse
+hint mvn
+perform package
+perform test
+hint
+help
+exit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-08-26 01:30:42
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-08-26 02:13:37
+perform package
+quit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-08-26 02:14:07
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-08-26 02:14:17
+perform package
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-08-26 02:36:30
