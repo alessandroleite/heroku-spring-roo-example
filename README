@@ -1,0 +1,10 @@
+A simple address book prepared to run in Heroku
+
+Deploy to Heroku/Cedar
+Create the app on the Cedar stack
+
+heroku create --stack cedar
+
+Deploy your code
+
+git push heroku master
